@@ -1,0 +1,78 @@
+/*Variables*/
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+/*Normalize*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif; }
+
+/*Styles*/
+.homepage {
+  background-color: #0d192b;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; }
+
+.card {
+  background-color: #14253d;
+  height: fit-content;
+  border-radius: 20px;
+  width: 25em; }
+  .card__image {
+    text-align: center;
+    margin-top: 20px; }
+    .card__image img {
+      width: 90%;
+      border-radius: 20px; }
+  .card__text {
+    margin: 30px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; }
+    .card__text__title {
+      margin-bottom: 10px;
+      font-weight: 600;
+      font-size: 1.4em; }
+    .card__text__descr {
+      color: #5c7aa3;
+      font-size: 1.2em;
+      margin-bottom: 15px; }
+  .card__pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .card__pricing__value {
+      display: flex;
+      flex-direction: row; }
+      .card__pricing__value img {
+        padding-right: 0.7rem; }
+    .card__pricing__time {
+      display: flex;
+      flex-direction: row;
+      color: #5c7aa3; }
+      .card__pricing__time img {
+        padding-right: 0.7rem; }
+  .card__creator {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px; }
+    .card__creator img {
+      border: solid 1px white;
+      border-radius: 50%;
+      width: 40px; }
+    .card__creator p {
+      padding-left: 0.7rem; }
+
+.line {
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+  border-color: #2f415b;
+  background-color: #2f415b; }
